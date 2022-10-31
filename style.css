@@ -1,0 +1,109 @@
+#titulo{
+    padding: 3px;
+padding-left: 3px;
+padding-right: 3px;
+margin-bottom: 5px;
+text-align: center;
+font-family: Georgia, serif;
+font-size: 28px;
+letter-spacing: 3.6px;
+word-spacing: 1.6px;
+
+color: rgb(109, 117, 134);
+background: #333333;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px rgb(0, 174, 255), 0 -10px 20px #0459f8, 0 -18px 40px rgb(0, 81, 255);
+
+font-weight: 400;
+text-decoration: underline solid rgb(131, 166, 243);
+font-style: italic;
+font-variant: small-caps;
+text-transform: capitalize;
+border: 6px inset rgba(28,110,164,0.52);
+border-radius: 23px 23px 23px 23px;     
+background-color: rgba(208,228,245,0.52);
+background-image: url("ola.jpg");
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: 100%;
+}
+
+body{
+background: #EED08F none no-repeat scroll 50px 50px;   
+margin: 3px;
+padding-top: 10px;
+
+}
+
+.slidein {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left:100%;
+      width:300%
+    }
+  
+    to {
+     margin-left:0%;
+     width:100%;
+   }
+  }
+
+
+
+#header{
+  
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 251, 212);
+  color: rgb(255, 251, 212);
+  width: 100px;
+  padding: 0;
+  border: 1px solid rgb(255, 251, 212);
+  border-radius: 1px;
+
+}
+
+  /* * {
+padding: 0px;
+margin: 0px;
+  } */
+
+  /* #header{
+    margin: auto;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  ul,ol {
+    list-style: none;
+  }
+
+  .nav li a {
+    background-color: cadetblue;
+    color: aquamarine;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+.nav li a:hover{
+    background-color: #0459f8;
+}
+
+  .nav > li {
+    float: left;
+  }
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width: 140px; 
+}   */
+  
+
+
+  
